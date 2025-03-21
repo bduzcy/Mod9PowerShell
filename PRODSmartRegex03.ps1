@@ -1,11 +1,11 @@
 ﻿## SECTION 1: WELCOME PHASE
 
 # Welcome
-Write-Host "`n_____________________________`n
+Write-Host "`n__________________________________`n
 
 Starting SmartRegex Interpreter
 
-`n_____________________________`n"
+`n__________________________________`n"
 
 # Ask for the file to search
 $file = Read-Host "`nEnter the file name (with extension)"
@@ -164,6 +164,8 @@ function SmartRegex2
         Write-Output "`nInvalid Input`nTry again idiot`n_________________________________________"
         RegexK
     }
+
+    FinalSmartRegex
 }
 
 ###################################
